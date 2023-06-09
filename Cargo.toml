@@ -1,0 +1,17 @@
+[package]
+name = "rubocop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rubocop-macros = { path = "rubocop-macros" }
+lib-ruby-parser = "4.0"
+regex-syntax = "0.7.2"
+serde_yaml = "0.9"
+
+[build-dependencies]
+lib-ruby-parser-nodes = "0.55.0"
+liquid = "0.26.0"
+serde_yaml = "0.9"

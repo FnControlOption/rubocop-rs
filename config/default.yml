@@ -1,0 +1,44 @@
+AllCops:
+  ActiveSupportExtensionsEnabled: false
+
+Layout/DefEndAlignment:
+  Enabled: true
+
+Layout/ElseAlignment:
+  Enabled: true
+
+Layout/EndAlignment:
+  Enabled: true
+
+Style/BeginBlock:
+  Enabled: true
+
+Style/ExactRegexpMatch:
+  Description: 'Checks for exact regexp match inside Regexp literals.'
+  Enabled: pending
+  VersionAdded: '<<next>>'
+
+Style/MethodDefParentheses:
+  Enabled: true
+
+Style/MultilineIfThen:
+  Enabled: true
+
+Style/Not:
+  Enabled: true
+
+Style/RedundantArrayConstructor:
+  Enabled: true
+
+Style/RedundantFilterChain:
+  Description: >-
+                  Identifies usages of `any?`, `empty?`, `none?` or `one?` predicate methods chained to
+                  `select`/`filter`/`find_all` and change them to use predicate method instead.
+  Enabled: pending
+  VersionAdded: '<<next>>'
+
+Style/RedundantRegexpConstructor:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
